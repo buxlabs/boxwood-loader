@@ -1,0 +1,28 @@
+{
+  "name": "@buxlabs/html-engine-loader",
+  "version": "0.5.1",
+  "description": "html engine loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buxlabs/html-engine-loader.git"
+  },
+  "keywords": [
+    "html",
+    "engine",
+    "loader",
+    "webpack"
+  ],
+  "author": "Emil Ajdyna <emil@ajdyna.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buxlabs/html-engine-loader/issues"
+  },
+  "homepage": "https://github.com/buxlabs/html-engine-loader#readme",
+  "devDependencies": {
+    "@buxlabs/html-engine": "^0.5.1"
+  }
+}
