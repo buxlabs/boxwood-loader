@@ -7,8 +7,7 @@ module.exports = function (source) {
   const transform = options.compile || compile
   const { code, statistics } = transform(source, options)
   if (typeof this.addDependency === 'function') {
-    statistics.components.forEach(component => this.addDependency(component.path))
-    statistics.partials.forEach(partial => this.addDependency(partial.path))
+    statistics.assets.forEach(path => this.addDependency(path))
   }
 
   return `export default ${code.toString()}`
