@@ -1,6 +1,6 @@
 {
   "name": "@buxlabs/html-engine-loader",
-  "version": "0.7.1",
+  "version": "0.8.0",
   "description": "html engine loader",
   "main": "index.js",
   "scripts": {
