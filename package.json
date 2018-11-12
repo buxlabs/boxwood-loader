@@ -1,6 +1,6 @@
 {
   "name": "@buxlabs/html-engine-loader",
-  "version": "0.9.5",
+  "version": "0.9.6",
   "description": "html engine loader",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,8 @@
   "dependencies": {
     "@buxlabs/html-engine": "^0.9.5",
     "loader-utils": "^1.1.0"
+  },
+  "devDependencies": {
+    "sinon": "^7.1.1"
   }
 }
