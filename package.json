@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/buxlabs/html-engine-loader#readme",
   "dependencies": {
-    "@buxlabs/html-engine": "^0.9.7",
+    "@buxlabs/html-engine": "^0.9.8",
     "loader-utils": "^1.1.0"
   },
   "devDependencies": {
