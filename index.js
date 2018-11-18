@@ -1,4 +1,4 @@
-const { compile } = require('@buxlabs/html-engine')
+const { compile } = require('pure-engine')
 const { getOptions } = require('loader-utils')
 
 module.exports = async function (source) {

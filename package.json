@@ -1,14 +1,14 @@
 {
-  "name": "@buxlabs/html-engine-loader",
-  "version": "0.9.8",
-  "description": "html engine loader",
+  "name": "pure-engine-loader",
+  "version": "0.9.9",
+  "description": "pure engine loader",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/buxlabs/html-engine-loader.git"
+    "url": "git+https://github.com/buxlabs/pure-engine-loader.git"
   },
   "keywords": [
     "html",
@@ -19,11 +19,11 @@
   "author": "Emil Ajdyna <emil@ajdyna.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/buxlabs/html-engine-loader/issues"
+    "url": "https://github.com/buxlabs/pure-engine-loader/issues"
   },
-  "homepage": "https://github.com/buxlabs/html-engine-loader#readme",
+  "homepage": "https://github.com/buxlabs/pure-engine-loader#readme",
   "dependencies": {
-    "@buxlabs/html-engine": "^0.9.8",
+    "pure-engine": "^0.9.9",
     "loader-utils": "^1.1.0"
   },
   "devDependencies": {

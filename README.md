@@ -1,9 +1,9 @@
-# html-engine-loader
+# pure-engine-loader
 
 ## Installation
 
 ```
-npm install @buxlabs/html-engine-loader
+npm install pure-engine-loader
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ module.exports = {
       {
         test: /\.html$/,
         use: {
-          loader: '@buxlabs/html-engine-loader',
+          loader: 'pure-engine-loader',
           options: {
             paths: [
               path.join(__dirname, 'public')
