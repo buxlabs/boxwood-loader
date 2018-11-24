@@ -6,8 +6,8 @@ module.exports = async function (source) {
   this.cacheable()
   const options = Object.assign({ statistics: true }, getOptions(this))
   const transform = options.compile || compile
-  const { code, statistics, errors } = await transform(source, options)
+  const { template, statistics, errors } = await transform(source, options)
   statistics.assets.forEach(path => this.addDependency(path))
-  this.callback(errors[0], `export default ${code.toString()}`)
+  this.callback(errors[0], `export default ${template.toString()}`)
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "pure-engine-loader",
-  "version": "0.9.11",
+  "version": "0.9.12",
   "description": "pure engine loader",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   "homepage": "https://github.com/buxlabs/pure-engine-loader#readme",
   "dependencies": {
     "loader-utils": "^1.1.0",
-    "pure-engine": "^0.9.11"
+    "pure-engine": "^0.9.12"
   },
   "devDependencies": {
     "sinon": "^7.1.1"
