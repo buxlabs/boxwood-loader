@@ -20,9 +20,7 @@ loader.call({
   assert.deepEqual(normalize(output), normalize(
     `
     export default function render(__o, __e) {
-      var __t = "";
-      __t += "<div";
-      __t += ">";
+      var __t = "<div>";
       __t += __e(__o.foo);
       __t += "</div>";
       return __t;

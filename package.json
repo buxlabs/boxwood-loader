@@ -24,7 +24,7 @@
   "homepage": "https://github.com/buxlabs/pure-engine-loader#readme",
   "dependencies": {
     "loader-utils": "^1.1.0",
-    "pure-engine": "^0.9.15"
+    "pure-engine": "^0.9.16"
   },
   "devDependencies": {
     "sinon": "^7.1.1"
