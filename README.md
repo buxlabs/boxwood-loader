@@ -1,6 +1,6 @@
 # pure-engine-loader
 
-![npm](https://img.shields.io/npm/v/pure-engine-loader.svg) [![Codeship](https://img.shields.io/codeship/d449ed60-1d63-0137-4301-5aea4b3287ff.svg)](https://app.codeship.com/projects/283045)
+![npm](https://img.shields.io/npm/v/pure-engine-loader.svg) [![Codeship](https://img.shields.io/codeship/d449ed60-1d63-0137-4301-5aea4b3287ff.svg)](https://app.codeship.com/projects/329031)
 
 >  pure-engine loader for webpack
 
