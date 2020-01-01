@@ -14,7 +14,15 @@ loader.call({
   async () {},
   callback,
   cacheable () {},
-  addDependency () {}
+  addDependency () {},
+  query: {
+    preprocess (source) {
+      return { input: source + 'bar' }
+    },
+    postprocess (source) {
+      return 'export default ' + source.replace('bar', 'baz')
+    }
+  }
 }, source).then(() => {
   const output = callback.lastCall.args[1]
   assert.deepEqual(normalize(output), normalize(
@@ -22,7 +30,7 @@ loader.call({
     export default function render(__o, __e) {
       var __t = "<div>";
       __t += __e(__o.foo);
-      __t += "</div>";
+      __t += "</div>baz";
       return __t;
     }
     `
