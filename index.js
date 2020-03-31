@@ -1,4 +1,4 @@
-const { compile } = require('pure-engine')
+const { compile } = require('boxwood')
 const { getOptions } = require('loader-utils')
 const { print } = require('./log')
 
@@ -25,4 +25,3 @@ module.exports = async function (source) {
     this.callback(errors[0], `export default ${output}`)
   }
 }
-

@@ -7,7 +7,7 @@ module.exports = {
     const error = message => log(colors.red.bold(message)) 
     const dashes = '-'.repeat(50)
     if (warnings.length > 0 || errors.length > 0) {
-      log(`pure-engine: ${warnings.length} warnings, ${errors.length} errors - ${path}`)
+      log(`boxwood: ${warnings.length} warnings, ${errors.length} errors - ${path}`)
     }
     if (warnings.length > 0) {
       warnings.forEach(({ type, message }) => {
@@ -29,4 +29,3 @@ module.exports = {
     }
   }
 }
-

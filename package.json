@@ -1,5 +1,5 @@
 {
-  "name": "pure-engine-loader",
+  "name": "boxwood-loader",
   "version": "0.13.3",
   "description": "pure engine loader",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/buxlabs/pure-engine-loader.git"
+    "url": "git+https://github.com/buxlabs/boxwood-loader.git"
   },
   "keywords": [
     "html",
@@ -19,13 +19,13 @@
   "author": "Emil Ajdyna <emil@ajdyna.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/buxlabs/pure-engine-loader/issues"
+    "url": "https://github.com/buxlabs/boxwood-loader/issues"
   },
-  "homepage": "https://github.com/buxlabs/pure-engine-loader#readme",
+  "homepage": "https://github.com/buxlabs/boxwood-loader#readme",
   "dependencies": {
     "ansi-colors": "^4.1.1",
-    "loader-utils": "^1.2.3",
-    "pure-engine": "0.13.2"
+    "boxwood": "^0.21.0",
+    "loader-utils": "^1.2.3"
   },
   "devDependencies": {
     "sinon": "^8.0.2"

@@ -1,8 +1,8 @@
-# pure-engine-loader
+# boxwood-loader
 
-![npm](https://img.shields.io/npm/v/pure-engine-loader.svg) [![Codeship](https://img.shields.io/codeship/d449ed60-1d63-0137-4301-5aea4b3287ff.svg)](https://app.codeship.com/projects/329031)
+![npm](https://img.shields.io/npm/v/boxwood-loader.svg) [![Codeship](https://img.shields.io/codeship/d449ed60-1d63-0137-4301-5aea4b3287ff.svg)](https://app.codeship.com/projects/329031)
 
->  pure-engine loader for webpack
+>  boxwood loader for webpack
 
 ## Table of Contents
 
@@ -15,12 +15,12 @@
 
 ## Background
 
-This package holds a webpack loader for the [pure-engine](https://github.com/buxlabs/pure-engine) package.
+This package holds a webpack loader for the [boxwood](https://github.com/buxlabs/boxwood) package.
 
 ## Install
 
 ```
-npm install pure-engine-loader
+npm install boxwood-loader
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ module.exports = {
       {
         test: /\.html$/,
         use: {
-          loader: 'pure-engine-loader',
+          loader: 'boxwood-loader',
           options: {
             paths: [
               path.join(__dirname, 'public')
