@@ -1,6 +1,6 @@
 {
   "name": "boxwood-loader",
-  "version": "0.15.0",
+  "version": "0.16.0",
   "description": "pure engine loader",
   "main": "index.js",
   "scripts": {
